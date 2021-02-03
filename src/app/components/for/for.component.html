@@ -1,0 +1,8 @@
+<div *ngFor="let course of courses">
+    <h1>{{course}}</h1>
+</div>
+
+<div *ngFor="let student of students">
+    <h1 >{{student.id}}</h1>
+    <h1 [ngClass]="{tdata:true}">{{student.name}}</h1>
+</div>
